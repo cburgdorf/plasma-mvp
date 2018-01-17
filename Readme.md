@@ -16,5 +16,3 @@ To deploy root chain smart contracts start testrpc on port 8454 and run:
 To run tests:
     ``make tests``
 
-Use this to close testrpc: 
-    kill -9 $ \`lsof -i:8545 -t\`
